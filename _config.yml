@@ -1,0 +1,28 @@
+
+author: takeru hayasaka
+title: TGUCommunicationClub
+email: 	tgucommunication@gmail.com
+description: 東北学院大学通信部のサイト
+baseurl: "/"
+permalink: /posts/:year-:month-:day-:title.html
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: [tables,autolink,strikethrough]
+exclude: ["Gemfile", "Gemfile.lock"]
+theme: minima
+gems:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

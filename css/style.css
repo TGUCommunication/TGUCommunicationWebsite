@@ -1,0 +1,93 @@
+@charset "utf-8";
+body {
+  background-color: #FAFAFA;
+  font: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 33px;
+  margin-top: 18px;
+  margin-bottom: 9px;
+  background: #9BC64C;
+  box-shadow: 0px 0px 0px 5px #9BC64C;
+  border: dashed 1px #4CAF50;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+
+h2,h3{
+  color: #454545;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #9BC64C;/*上線*/
+  border-bottom: solid 3px #9BC64C;/*下線*/
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+.fixedBack {
+    min-height: 400px;
+    max-height: 100vh;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-image: url('../img/wall002-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 0;
+}
+footer div.container small a{
+  color: #454545;/*文字色*/
+}
+ul>li>a{
+  color: #454545;/*文字色*/
+}
+
+/*button*/
+.raisedbutton{
+  display: inline-block;
+  background-color: #26a69b;
+  color: #FFF;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  padding: 0.6em 1.3em;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-tap-highlight-color: transparent;
+  transition: .3s;
+}
+.raisedbutton:hover{
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.material {
+  position: relative;
+  overflow: hidden;
+}
+
+.material .rp-effect {/*エフェクト*/
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.35;/*波紋の濃さ*/
+  transform: scale(0);
+  background: #FFF;/*波紋色*/
+  animation: ripple 700ms;
+}
+
+@-webkit-keyframes material {
+  to {
+    opacity: 0;
+    transform: scale(2.0);
+  }
+}
+
+@keyframes material {
+  to {
+    opacity: 0;
+    transform: scale(2.0);
+  }
+}
