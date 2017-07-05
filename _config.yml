@@ -3,7 +3,7 @@ author: takeru hayasaka
 title: TGUCommunicationClub
 email: 	tgucommunication@gmail.com
 description: 東北学院大学通信部のサイト
-baseurl: "/tgucommunicationwebsite"
+baseurl: /tgucommunicationwebsite
 permalink: /posts/:year-:month-:day-:title.html
 
 # Build settings
