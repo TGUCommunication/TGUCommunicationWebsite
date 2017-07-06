@@ -14,7 +14,14 @@ h1 {
   padding: 0.2em 0.5em;
   color: #454545;
 }
+@media screen and (max-width: 440px) {
 
+  h1 {
+    font-size: 25px;
+    border-left: 0;
+    padding: 0.1em 0.4em;
+  }
+}
 h2,h3{
   color: #454545;/*文字色*/
   padding: 0.5em 0;/*上下の余白*/
