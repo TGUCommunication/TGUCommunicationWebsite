@@ -1,10 +1,13 @@
 baseurl: /website
 
+encoding: utf-8
+
 author: takeru hayasaka
 title: TGUCommunicationClub
 email: 	tgucommunication@gmail.com
 description: 東北学院大学通信部のサイト
 permalink: /posts/:year-:month-:day-:title.html
+timezone: Asia/Tokyo
 
 # Build settings
 markdown: redcarpet
