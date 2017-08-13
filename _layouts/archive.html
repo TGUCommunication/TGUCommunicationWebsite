@@ -45,12 +45,14 @@
           {% endfor %}
         <hr/> {{ content }}
       </div>
+
       <div class="hidden-sm col-md-1"></div>
     </div>
+    {% include social.html %}
+    {% include disqus.html %}
   </div>
 
-  {% include social.html %}
-  {% include disqus.html %}
+
   {% include footer.html %}
 
 </body>
